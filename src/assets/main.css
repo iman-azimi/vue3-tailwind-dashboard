@@ -1,0 +1,26 @@
+@import "./base.css";
+@import "./icon.css";
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #F5F5F5 ;
+}
+body.dark {
+  background: #252849 !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181A1E;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6A59DD;
+  border-radius: 100px;
+}
